@@ -1,156 +1,180 @@
-
 /* ШАПКА */
-.back{
-  background-image: url(../d.jpg);
-  background-size: cover;
+.back {
+    background-image: url(d.jpg);
+    background-size: cover;
 }
-header{
-      /* background-image: url(d.jpg); */
-      max-width: auto;
-min-width: 700px;
-background-repeat: no-repeat;
-background-size: cover;
-height: 120px;
 
-display: flex;
-justify-content: space-between;
-padding: 15px 30px 15px 30px;
+header {
+    /* background-image: url(d.jpg); */
+
+
+    /*max-width: auto;*/
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 30px;
 }
 
 /* ЛОГО И ЗАГОЛОВОК */
 
-.conteiner{
-  max-width: auto;
-  width: 100%;
-  height: 140px;
-  display: flex;
-  /* min-width: 100%; */
-}
-.cont{
-  max-width: auto;
-  position: relative;
-  left: 0;
-  margin-top: 2.4%;
-  margin-bottom: auto;
-  min-width: 100%;
-  margin-right: 10px;
-  }
+.conteiner {
 
-.logo_zag  {
-  max-width: auto;
- position: relative;
- /* margin-top: auto; */
- margin-bottom: auto;
- margin-left: 2%;
- margin-right: 10px;
+    /*height: 140px;*/
+
+
+    min-height: 140px;
+
+
+    display: flex;
+
+    /* min-width: 100%; */
+    /*max-width: auto;*/
+    /*width: 100%;*/
+
+    flex: 1; /* лучше использовать это свойство*/
 }
 
-.osn_zag{
-  margin-left: 15px;
-  margin-right: 15px;
-  font-family: "Open Sans";
-  font-size: 160%;
-  color: #C0C0C0;
+.cont {
+
+    /*max-width: auto;*/
+    /*min-width: 100%;*/
+
+
+    position: relative;
+    left: 0;
+    margin-top: 2.4%;
+    margin-bottom: auto;
+    margin-right: 10px;
 }
 
-.osn_zag1{
-  font-family: "Open Sans";
-  font-size: 70%;
-  color: #FFFFFF;
-  position: relative;
-  top: -5px;
-  left: 5%;
+.logo_zag {
+    max-width: auto;
+    position: relative;
+    /* margin-top: auto; */
+    margin-bottom: auto;
+    margin-left: 2%;
+    margin-right: 10px;
 }
-.osn_zag12{
-  font-family: "Open Sans";
-  color: #FFFFFF;
-  position: relative;
-  top: -15px;
-  left: 50px;
+
+.osn_zag {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Open Sans";
+    font-size: 160%;
+    color: #C0C0C0;
+}
+
+.osn_zag1 {
+    font-family: "Open Sans";
+    font-size: 70%;
+    color: #FFFFFF;
+    position: relative;
+    top: -5px;
+    left: 5%;
+}
+
+.osn_zag12 {
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    position: relative;
+    top: -15px;
+    left: 50px;
 }
 
 /* КОНТАКТЫ И ИКОНКИ */
 
-.contacts{
-  max-width: auto;
-  color: white;
-  display: block;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: auto;
-  width: 100%;
-margin-left: 200px;
-min-width: 200px;
+.contacts {
+    /* лишнее */
+    /*max-width: auto;*/
+    /*width: 100%;*/
+
+    color: white;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: auto;
+    /*margin-left: 200px;*/
+    /*min-width: 200px;*/
 }
 
 /* иконки */
 
-.icons{
-  display: block;
-  position: relative;
-  right: 30px;
-  top: 10px;
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
+.icons {
+    display: block;
+
+
+    /*position: relative;*/
+    /*right: 30px;*/
+    /*top: 10px;*/
+
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
 }
 
-.phone{
-  position: relative;
-  width: 30px;
-  height: 30px;
+.phone {
+    position: relative;
+    width: 30px;
+    height: 30px;
 }
-.mail{
-  position: relative;
-  top: 13px;
-  width: 30px;
-  height: 30px;
+
+.mail {
+    position: relative;
+    top: 13px;
+    width: 30px;
+    height: 30px;
 }
 
 /* контакты */
 
-.contacts1{
+.contacts1 {
 
 }
 
-  .phone_zag{
-  font-family: "Open Sans";
-  font-size: 170%;
-  color: #FFFFFF;
-  position: relative;
-  top: 10px;
+.phone_zag {
+    font-family: "Open Sans";
+    font-size: 170%;
+    color: #FFFFFF;
+    position: relative;
+    top: 10px;
 }
 
-.contacts_zag{
-  font-family: "Open Sans";
-  font-size: 80%;
-  color: #FFFFFF;
-  position: relative; */
+.contacts_zag {
+    font-family: "Open Sans";
+    font-size: 80%;
+    color: #FFFFFF;
+    position: relative;
 }
 
-.b{
-  font-family: "Open Sans";
-  position: relative;
-  top: 2px;
-  left: 123px;
+.b {
+    font-family: "Open Sans";
+    position: relative;
+    top: 2px;
+    left: 123px;
 }
 
-.post{
-  font-family: "Open Sans";
-  font-size: 70%;
-  position: relative;
-  top: 5px;
-  left: 20px;
+.post {
+    font-family: "Open Sans";
+    font-size: 70%;
+    position: relative;
+    top: 5px;
+    left: 20px;
 }
 
 /* МЕНЮ */
 
 .menu {
-  max-width: auto;
-  min-width: 760px;
+    max-width: auto;
+    min-width: 760px;
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url(d.jpg); */
-        background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     background-repeat: no-repeat;
     background-size: cover;
     height: 40px;
@@ -161,11 +185,13 @@ min-width: 200px;
     position: relative;
     padding: 15px 0px;
 }
-.menu nav ul{
+
+.menu nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .menu nav ul li {
     font-size: 18px;
     color: white;
@@ -173,24 +199,25 @@ min-width: 200px;
     list-style-type: disc;
     color: #bd5120;
 }
+
 .menu nav ul li a {
     color: white;
     display: block;
 }
-.menu nav ul li:hover {
-  -webkit-transform: scale(1.2);
- -ms-transform: scale(1.2);
- transform: scale(1.2);
-}
 
+.menu nav ul li:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
 /* КАРУСЕЛЬ */
 
-body{
-  /* background-color: rgb(41,16,1,0.5); */
+body {
+    /* background-color: rgb(41,16,1,0.5); */
 }
 
-  .owl-carousel{
+.owl-carousel {
     max-width: auto;
     padding-top: 25px;
     width: 70%;
@@ -198,29 +225,30 @@ body{
     min-width: 760px;
     /* margin: 0 auto; */
     margin-left: auto;
-   margin-right: auto
-  }
+    margin-right: auto
+}
 
-       .slide-text{
-         line-height: 20px;
-         width: 100%;
-         color: white;
-         font-family: Segoe UI;
-         font-size: 20px;
-         font-weight: bold;
-         text-transform: uppercase;
-         position: absolute;
-         top: 0px;
-         left: 10px;
-       }
-       .overlay{
-  position: absolute;
-  top: 90%;
-  left: 0px;
-  height: 10%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
+.slide-text {
+    line-height: 20px;
+    width: 100%;
+    color: white;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 90%;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
 }
 
 /*-----------------------------------—
@@ -228,136 +256,138 @@ body{
 ГЛАВНЫЙ БЛОК
 
 ----------------------------------------*/
-.main{
-  max-width: auto;
-  padding-top: 25px;
-margin-top: 50px;
-height: 100%;
-max-width: 950px;
-padding-bottom: 42px;
-min-width: 400px;
-margin-left: auto;
-margin-right: auto;
+.main {
+    max-width: auto;
+    padding-top: 25px;
+    margin-top: 50px;
+    height: 100%;
+    max-width: 950px;
+    padding-bottom: 42px;
+    min-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content {
-margin-left: 30%;
-min-width: 500px;
+    margin-left: 30%;
+    min-width: 500px;
 }
 
 .content ul {
-padding-left: 0;
-list-style-position: inside;
+    padding-left: 0;
+    list-style-position: inside;
 }
 
 .content ul li {
-list-style-type: disc;
-color: #bd5120;
+    list-style-type: disc;
+    color: #bd5120;
 }
 
 .content ul li span {
-color: black;
+    color: black;
 }
 
 .content p a {
-color: #bd5120;
+    color: #bd5120;
 }
 
 .content h1, h2 {
-color: #bd5120;
+    color: #bd5120;
 }
+
 /*-----------------------------------—
 
 САЙДБАР
 
 ----------------------------------------*/
 .sidebar {
-  margin-right: 30px;
-  min-width: 200px;
-width: 25%;
-float: left;
-background: #352013;
-border-top-left-radius: 25px;
-border-top-right-radius: 25px;
-border-bottom-left-radius: 5px;
-border-bottom-right-radius: 5px;
-display: table-cell;
-vertical-align: top;
+    margin-right: 30px;
+    min-width: 200px;
+    width: 25%;
+    float: left;
+    background: #352013;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: table-cell;
+    vertical-align: top;
 }
+
 .sidebar-headline {
-margin-top: 0;
-height: 40px;
-line-height: 1px;
-text-align: center;
-border-radius: 25px;
-background: #bd5120;
-color: white;
-margin-bottom: 30px;
-border: 3px solid #8B0000;
+    margin-top: 0;
+    height: 40px;
+    line-height: 1px;
+    text-align: center;
+    border-radius: 25px;
+    background: #bd5120;
+    color: white;
+    margin-bottom: 30px;
+    border: 3px solid #8B0000;
 }
 
 .sidebar-content {
-margin-left: 20px;
+    margin-left: 20px;
 }
 
 .sidebar-content a {
-color: white;
+    color: white;
 }
-
 
 .sub-menu {
-display: none;
-background: #cec0a6;
-max-width: 92%;
-margin-left: -9%;
-padding-top: 3px;
-padding-bottom: 5px;
-
+    display: none;
+    background: #cec0a6;
+    max-width: 92%;
+    margin-left: -9%;
+    padding-top: 3px;
+    padding-bottom: 5px;
 
 }
+
 .sub-menu li {
-color: #bd5120;
-margin-bottom: 5px;
+    color: #bd5120;
+    margin-bottom: 5px;
 }
+
 .sub-menu li a {
-color: black;
+    color: black;
 }
+
 .drop-link:focus ~ .sub-menu,
 .drop-link:active ~ .sub-menu,
 .sub-menu:hover {
-display: block;
-
+    display: block;
 }
-
 
 /* ПОДВАЛ */
 
- footer{
-   max-width: auto;
-   min-width: 490px;
-   background-image: url(../foot.jpg);
-   background-size: cover;
-  background-color: #cec0a6;
-  height: 127px;
-  padding-left: 135px;
-  padding-right: 135px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+footer {
+    max-width: auto;
+    min-width: 490px;
+    background-image: url(foot.jpg);
+    background-size: cover;
+    background-color: #cec0a6;
+    height: 127px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* меню */
 
-.menu-foot nav ul{
+.menu-foot nav ul {
     display: flex;
     padding-left: 0;
     width: 100%;
     /* align-items: center;
     justify-content: center; */
 }
+
 .menu-foot nav ul li {
     font-size: 15px;
     color: white;
@@ -366,145 +396,185 @@ display: block;
     margin-right: 5px;
 
 }
+
 .menu-foot nav ul li:before {
     content: "|";
     margin-right: 5px;
-    margin-left: 5px;}
+    margin-left: 5px;
+}
 
 .menu-foot nav ul li a {
     color: white;
     /* display: block; */
-  }
-
-    .menu-foot nav ul li:first-child:before {
-        content: "";
-        margin-left: -10px;
-    }
-
-    .menu-foot nav ul li:last-child {
-        margin-right: 0;
-    }
-
-    /* текст и лого */
-
-    .footer-logo{
-      text-align: center;
-    }
-
-    .comp-footer{
-      color: white;
-    }
-
-    .foot-logo{
-      max-width: 70px;
-       border-radius: 700px;
-       border: 3px solid white;
-       justify-content: center;
-       align-items: center;
-       position: relative;
-       /* left: 10px; */
-       top: 10px;
-    }
-
-    .footer-logo p a{
-      color: white;
-    }
-
-
-    @media screen and (max-width: 800px){
-.back{
-    min-width: auto;
-    max-width: auto;
 }
-      header{
-            /* background-image: url(d.jpg); */
-      /* min-width: auto; */
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 300px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 15px 30px 15px 30px;
-      }
-      .contacts{
-        max-width: auto;
-        display: block;
+
+.menu-foot nav ul li:first-child:before {
+    content: "";
+    margin-left: -10px;
+}
+
+.menu-foot nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* текст и лого */
+
+.footer-logo {
+    text-align: center;
+}
+
+.comp-footer {
+    color: white;
+}
+
+.foot-logo {
+    max-width: 70px;
+    border-radius: 700px;
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* left: 10px; */
+    top: 10px;
+}
+
+.footer-logo p a {
+    color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .back {
+        /*min-width: auto;*/
+        /*max-width: auto;*/
+    }
+
+    header {
+        /* background-image: url(d.jpg); */
+        /* min-width: auto; */
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
+
+
+        min-height: 300px;
+        height: auto;
+
+        /*display: flex;*/
+
+
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 30px 15px 30px;
+    }
+
+    .conteiner{
+        flex-direction: column;
+    }
+
+    .contacts {
+        /*max-width: auto;*/
+
+        /* по умолчанию блочный элемент */
+        /*display: block;*/
+
         display: flex;
         justify-content: flex-start;
-      margin-left: 100px;
-      min-width: 200px;
-      }
-      .sidebar {
-      display: block;
-      vertical-align: top;
-      order:2;
-      margin-left: 20px;
-      }
-      .main{
+        margin-left: 0;
+        min-width: 200px;
+    }
+
+    .sidebar {
+        display: block;
+        vertical-align: top;
+        order: 2;
+        margin-left: 20px;
+    }
+
+    .main {
+        /*max-width: auto;*/
+        min-width: inherit;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
         max-width: auto;
-display: flex;
-flex-direction: column;
-      }
-      .content {
-        max-width: auto;
-      margin-left: 20px;
-      min-width: 300px;
-      }
-      .menu {
+        margin-left: 20px;
+        min-width: inherit;
+    }
+
+    .menu {
         min-width: auto;
-          height: 100%;
-          display: block;
-          flex-direction: column;
-          padding: 5px 0px;
-      }
-      .menu nav ul{
+        height: 100%;
+        display: block;
+        flex-direction: column;
+        padding: 5px 0px;
+    }
+
+    .menu nav ul {
         margin-left: 15px;
-          display: block;
-      }
-      .menu nav ul li:hover {
+        display: block;
+    }
+
+    .menu nav ul li:hover {
         -webkit-transform: scale(1.2);
-       -ms-transform: scale(1.2);
-       transform: scale(1.1);
-      }
-      .owl-carousel{
+        -ms-transform: scale(1.2);
+        transform: scale(1.1);
+    }
+
+    .owl-carousel {
         padding-top: 25px;
         width: 100%;
         height: 100%;
         min-width: auto;
         /* margin: 0 auto; */
         margin-left: auto;
-       margin-right: auto
-      }
-      .main{
-      min-width: 200px;
-      }
-      footer{
-        max-width: auto;
-        min-width: auto;
-       height: 300px;
-       padding-left: 10px;
-       padding-right: 135px;
-       padding-top: 10px;
-       padding-bottom: 10px;
-
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-     }
-     .menu-foot nav ul{
-         display: block;
-         padding-left: 0;
-         width: 100%;
-         /* align-items: center;
-         justify-content: center; */
-     }
-     .menu-foot nav ul li:before {
-         content: " ";
-         margin-right: 5px;
-         margin-left: 5px;}
-    .menu-foot nav ul li:first-child:before {
-      margin-left: 5px;
+        margin-right: auto
     }
 
-  }
+    .main {
+        min-width: 200px;
+    }
+
+    footer {
+        max-width: auto;
+        min-width: auto;
+        height: 300px;
+        padding-left: 10px;
+        padding-right: 135px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .menu-foot nav ul {
+        display: block;
+        padding-left: 0;
+        width: 100%;
+        /* align-items: center;
+        justify-content: center; */
+    }
+
+    .menu-foot nav ul li:before {
+        content: " ";
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .menu-foot nav ul li:first-child:before {
+        margin-left: 5px;
+    }
+
+
+
+    .osn_zag12{
+        top: 0;
+        left: 0;
+    }
+
+    .razrab{
+        margin: 0;
+    }
+}
