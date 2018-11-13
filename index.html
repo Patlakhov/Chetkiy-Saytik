@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <!-- отвечает за реализацию шапки -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+
+
     <!-- подключение шрифтов -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="static/owl-carousel/dist/assets/owl.carousel.css">
     <link rel="stylesheet" href="static/owl-carousel/dist/assets/owl.theme.default.css">
+
+    <link rel="stylesheet" href="./static/css/vendor/reset.css">
 
     <link rel="stylesheet" href="static/css/main.css">
 
 </head>
 <body>
 <div class="back">
-    <header>
-        <div class="conteiner">
+    <header class="header">
+        <div class="container">
             <img class="logo_zag" src="static/images/Resurs_1.png" alt="Лого">
             <div class="cont">
                 <p1 class="osn_zag">КОМПАНИЯ <strong>БРУСХАУС</strong><br>
@@ -24,17 +29,42 @@
             </div>
         </div>
 
+        <!--<div class="contacts">-->
+        <!--<div class="icons">-->
+        <!--<img class="phone" src="телефон.png" atl="Телефон">-->
+        <!--<img class="mail" src="почта.png" atl="Телефон">-->
+        <!--</div>-->
+        <!--<p4 class="contacts_zag">Оренбург, улица Пушкина,<br>-->
+        <!--<p5 class="b">дом 10</p5>-->
+        <!--<br>-->
+        <!--<p3 class="phone_zag">8(3532)23-29-79<br>8(3532)61-35-71<br>-->
+        <!--<a href="URL" class="post">brushouse@bk.ru</a></p3>-->
+        <!--</p4>-->
+        <!--</div>-->
+
+
         <div class="contacts">
-            <div class="icons">
-                <img class="phone" src="static/images/телефон.png" atl="Телефон">
-                <img class="mail" src="static/images/почта.png" atl="Телефон">
-            </div>
-            <p4 class="contacts_zag">Оренбург, улица Пушкина,<br>
-                <p5 class="b">дом 10</p5>
-                <br>
-                <p3 class="phone_zag">8(3532)23-29-79<br>8(3532)61-35-71<br>
-                    <a href="URL" class="post">brushouse@bk.ru</a></p3>
-            </p4>
+            <ul class="contacts__list">
+                <li class="contacts__item">
+                    <a class="contact__link contact__link--s contact__link--right"
+                       href="https://yandex.ru/maps/48/orenburg/?ll=55.095500%2C51.760345&mode=search&sll=52.257515%2C52.788258&sspn=0.021243%2C0.008404&text=%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%BA%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%2C%20%D0%B4%D0%BE%D0%BC%2010&z=16"
+                       rel="nofollow" target="_blank">Оренбург, улица Пушкинская,<br/>дом 10</a>
+                </li>
+                <li class="contacts__item contacts__item--phone">
+                    <ul class="contacts__sublist">
+                        <li class="contacts__subitem">
+                            <a class="contact__link" rel="nofollow"
+                               href="tel:83532232979">8(3532)-23-29-79</a>
+                        </li>
+                        <li>
+                            <a class="contact__link" rel="nofollow" href="tel:83532613571">8(3532)-61-35-71</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="contacts__item contacts__item--mail">
+                    <a href="mailto:brushouse@bk.ru" class="contact__link contact__link--s">brushouse@bk.ru</a>
+                </li>
+            </ul>
         </div>
 
 
@@ -55,7 +85,7 @@
 </div>
 <div class="carousel">
     <div class="owl-carousel owl-theme">
-        <div><img class="slaid1" src="static/images/dach-iz-brusa.jpg" alt="Лого">
+        <div><img class="slaid1" src="dach-iz-brusa.jpg" alt="Лого">
             <div class="overlay">
                 <p class="slide-text">
                     Дома из клеёного бруса и цилиндрованного бревна

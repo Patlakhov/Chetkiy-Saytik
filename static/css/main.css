@@ -1,14 +1,22 @@
+@import "./contacts.css";
+
+
+a{
+    text-decoration: none;
+}
+
+
 /* ШАПКА */
 .back {
     background-image: url(../images/d.jpg);
     background-size: cover;
 }
 
-header {
+.header {
     /* background-image: url(d.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120px;
+    min-height: 120px;
 
     display: flex;
     justify-content: space-between;
@@ -17,7 +25,7 @@ header {
 
 /* ЛОГО И ЗАГОЛОВОК */
 
-.conteiner {
+.container {
     min-height: 140px;
     display: flex;
     flex: 1; /* лучше использовать это свойство*/
@@ -62,74 +70,6 @@ header {
     position: relative;
     top: -15px;
     left: 50px;
-}
-
-/* КОНТАКТЫ И ИКОНКИ */
-
-.contacts {
-    color: white;
-    display: block;
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: auto;
-}
-
-/* иконки */
-
-.icons {
-    display: block;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
-.phone {
-    position: relative;
-    width: 30px;
-    height: 30px;
-}
-
-.mail {
-    position: relative;
-    top: 13px;
-    width: 30px;
-    height: 30px;
-}
-
-/* контакты */
-
-.contacts1 {
-
-}
-
-.phone_zag {
-    font-family: "Open Sans";
-    font-size: 170%;
-    color: #FFFFFF;
-    position: relative;
-    top: 10px;
-}
-
-.contacts_zag {
-    font-family: "Open Sans";
-    font-size: 80%;
-    color: #FFFFFF;
-    position: relative;
-}
-
-.b {
-    font-family: "Open Sans";
-    position: relative;
-    top: 2px;
-    left: 123px;
-}
-
-.post {
-    font-family: "Open Sans";
-    font-size: 70%;
-    position: relative;
-    top: 5px;
-    left: 20px;
 }
 
 /* МЕНЮ */
@@ -400,7 +340,7 @@ src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
     .back {
     }
 
-    header {
+    .header {
         min-height: 300px;
         height: auto;
         flex-direction: column;
@@ -408,16 +348,8 @@ src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
         padding: 15px 30px 15px 30px;
     }
 
-    .conteiner{
+    .container{
         flex-direction: column;
-    }
-
-    .contacts {
-        /* по умолчанию блочный элемент */
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 0;
-        min-width: 200px;
     }
 
     .sidebar {
