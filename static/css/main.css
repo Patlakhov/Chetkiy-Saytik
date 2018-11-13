@@ -6,11 +6,6 @@
 
 header {
     /* background-image: url(d.jpg); */
-
-
-    /*max-width: auto;*/
-
-
     background-repeat: no-repeat;
     background-size: cover;
     height: 120px;
@@ -23,28 +18,12 @@ header {
 /* ЛОГО И ЗАГОЛОВОК */
 
 .conteiner {
-
-    /*height: 140px;*/
-
-
     min-height: 140px;
-
-
     display: flex;
-
-    /* min-width: 100%; */
-    /*max-width: auto;*/
-    /*width: 100%;*/
-
     flex: 1; /* лучше использовать это свойство*/
 }
 
 .cont {
-
-    /*max-width: auto;*/
-    /*min-width: 100%;*/
-
-
     position: relative;
     left: 0;
     margin-top: 2.4%;
@@ -55,7 +34,6 @@ header {
 .logo_zag {
     max-width: auto;
     position: relative;
-    /* margin-top: auto; */
     margin-bottom: auto;
     margin-left: 2%;
     margin-right: 10px;
@@ -89,30 +67,17 @@ header {
 /* КОНТАКТЫ И ИКОНКИ */
 
 .contacts {
-    /* лишнее */
-    /*max-width: auto;*/
-    /*width: 100%;*/
-
     color: white;
     display: block;
     display: flex;
     justify-content: flex-end;
     margin-bottom: auto;
-    /*margin-left: 200px;*/
-    /*min-width: 200px;*/
 }
 
 /* иконки */
 
 .icons {
     display: block;
-
-
-    /*position: relative;*/
-    /*right: 30px;*/
-    /*top: 10px;*/
-
-
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -170,10 +135,6 @@ header {
 /* МЕНЮ */
 
 .menu {
-    max-width: auto;
-    min-width: 760px;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(d.jpg); */
     background-color: rgba(0, 0, 0, 0.4);
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,12 +179,10 @@ body {
 }
 
 .owl-carousel {
-    max-width: auto;
     padding-top: 25px;
     width: 70%;
     height: 70%;
     min-width: 760px;
-    /* margin: 0 auto; */
     margin-left: auto;
     margin-right: auto
 }
@@ -263,14 +222,12 @@ body {
     height: 100%;
     max-width: 950px;
     padding-bottom: 42px;
-    min-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .content {
     margin-left: 30%;
-    min-width: 500px;
 }
 
 .content ul {
@@ -337,7 +294,6 @@ body {
 .sub-menu {
     display: none;
     background: #cec0a6;
-    max-width: 92%;
     margin-left: -9%;
     padding-top: 3px;
     padding-bottom: 5px;
@@ -362,8 +318,6 @@ body {
 /* ПОДВАЛ */
 
 footer {
-    max-width: auto;
-    min-width: 490px;
     background-image: url(../images/foot.jpg);
     background-size: cover;
     background-color: #cec0a6;
@@ -384,8 +338,6 @@ footer {
     display: flex;
     padding-left: 0;
     width: 100%;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 .menu-foot nav ul li {
@@ -394,7 +346,6 @@ footer {
     list-style-type: none;
     color: white;
     margin-right: 5px;
-
 }
 
 .menu-foot nav ul li:before {
@@ -405,7 +356,6 @@ footer {
 
 .menu-foot nav ul li a {
     color: white;
-    /* display: block; */
 }
 
 .menu-foot nav ul li:first-child:before {
@@ -434,7 +384,6 @@ footer {
     justify-content: center;
     align-items: center;
     position: relative;
-    /* left: 10px; */
     top: 10px;
 }
 
@@ -445,27 +394,15 @@ footer {
 // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
 font-family: "Open Sans";
 // адрес шрифта и тип
-src: url("../fonts/OpenSans-Bold.ttf") format("truetype"); 
+src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
 }
 @media screen and (max-width: 800px) {
     .back {
-        /*min-width: auto;*/
-        /*max-width: auto;*/
     }
 
     header {
-        /* background-image: url(d.jpg); */
-        /* min-width: auto; */
-        /*background-repeat: no-repeat;*/
-        /*background-size: cover;*/
-
-
         min-height: 300px;
         height: auto;
-
-        /*display: flex;*/
-
-
         flex-direction: column;
         align-items: flex-start;
         padding: 15px 30px 15px 30px;
@@ -476,11 +413,7 @@ src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
     }
 
     .contacts {
-        /*max-width: auto;*/
-
         /* по умолчанию блочный элемент */
-        /*display: block;*/
-
         display: flex;
         justify-content: flex-start;
         margin-left: 0;
@@ -495,20 +428,16 @@ src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
     }
 
     .main {
-        /*max-width: auto;*/
         min-width: inherit;
         display: flex;
         flex-direction: column;
     }
 
     .content {
-        max-width: auto;
         margin-left: 20px;
-        min-width: inherit;
     }
 
     .menu {
-        min-width: auto;
         height: 100%;
         display: block;
         flex-direction: column;
@@ -531,18 +460,14 @@ src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
         width: 100%;
         height: 100%;
         min-width: auto;
-        /* margin: 0 auto; */
         margin-left: auto;
         margin-right: auto
     }
 
     .main {
-        min-width: 200px;
     }
 
     footer {
-        max-width: auto;
-        min-width: auto;
         height: 300px;
         padding-left: 10px;
         padding-right: 135px;
@@ -558,8 +483,6 @@ src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
         display: block;
         padding-left: 0;
         width: 100%;
-        /* align-items: center;
-        justify-content: center; */
     }
 
     .menu-foot nav ul li:before {
